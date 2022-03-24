@@ -1,20 +1,27 @@
 <!doctype html>
+
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>SIT 725 Prac 3</title>
     <meta name="description" content="basic template for SIT 725 Prac 3">
     <meta name="author" content="SitePoint">
+
     <meta property="og:title" content="SIT 725 Prac 3">
     <meta property="og:type" content="website">
     <meta property="og:description" content="basic template for SIT 725 Prac 3">
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Custom Style Sheet-->
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -38,8 +45,8 @@
                     <img class="materialboxed materialboxed-image" src="images/livedemo.png">
                 </div>
                 <div class="col s12 center-align">
-                    <a class="waves-effect waves-light btn click-me-button" id="clickMeButton"><i
-                            class="material-icons left">auto_fix_high</i>Click Me</a>
+                    <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton"
+                        data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
                 </div>
             </div>
             <div class="row" id="card-section">
@@ -62,10 +69,103 @@
                 </div>
             </div>
         </div>
+        <!-- Modal Structure continues on next slide-->
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="row modal-content">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Please Input Details" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <!-- Switch -->
+                    <div class="switch">
+                        <label for="switch">Australian Citizen?</label>
+                        <label>
+                            Yes
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            No
+                        </label>
+                    </div>
+                    <br>
+                    <form action="state">
+                        <label for="state">State:</label>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" checked />
+                                <span>VIC</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" />
+                                <span>NSW</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input class="with-gap" name="group1" type="radio" />
+                                <span>QLD</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" disabled="disabled" />
+                                <span>WA</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" disabled="disabled" />
+                                <span>NT</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" disabled="disabled" />
+                                <span>ACT</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="group1" type="radio" disabled="disabled" />
+                                <span>TAS</span>
+                            </label>
+                        </p>
+                    </form>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="j
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
