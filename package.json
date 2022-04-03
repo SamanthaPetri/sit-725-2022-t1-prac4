@@ -1,14 +1,14 @@
 {
-  "name": "sit725-2022-t1-prac3",
+  "name": "sit725-2022-t1-prac4",
   "version": "1.0.0",
-  "description": "week 3 prac for sit725 2022",
+  "description": "week 4 prac for sit725 2022",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamanthaPetri/sit725-2022-t1-prac3.git"
+    "url": "git+https://github.com/SamanthaPetri/sit725-2022-t1-prac4.git"
   },
   "keywords": [
     "express",
@@ -17,9 +17,9 @@
   "author": "Samantha Petri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SamanthaPetri/sit725-2022-t1-prac3/issues"
+    "url": "https://github.com/SamanthaPetri/sit725-2022-t1-prac4/issues"
   },
-  "homepage": "https://github.com/SamanthaPetri/sit725-2022-t1-prac3#readme",
+  "homepage": "https://github.com/SamanthaPetri/sit725-2022-t1-prac4#readme",
   "dependencies": {
     "express": "^4.17.3"
   }
