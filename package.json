@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/SamanthaPetri/sit725-2022-t1-prac4#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "nodejs": "^0.0.0"
   }
 }
